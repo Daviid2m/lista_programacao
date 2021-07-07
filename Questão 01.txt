@@ -1,0 +1,5 @@
+Resposta1:
+
+O uso de ponteiros na criação de programas que podem ser utilizados na engenharia são diversos, pois, 
+a aplicação deste conhecimento permite uma manipulção real dos dados que o programa contém, sem alterar o seu código 
+nem suas variáveis globais.
