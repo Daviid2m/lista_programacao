@@ -1,0 +1,37 @@
+Resposta:
+
+Para as variáveis do tipo char, float e double os valores encontrados são 
+iguais aos idealizados na questão anterior, a única diferença foi a 
+variável int, pois no teste foi encontrado que ela ocupa 4 bytes, enquanto
+na questão anterior ocupava apenas 2 bytes.
+
+Código implementado:
+
+#include<stdio.h> 
+
+int main(){
+  char vet0[10];
+  int vet1[10];
+  float vet2[10];
+  double vet3[10];
+  int i;
+  
+  for(i=0;i<3;i++){
+    printf("end char= %p \n",vet0+i);
+  }
+  printf("\n");
+  for(i=0;i<3;i++){
+    printf("end int= %p \n",vet1+i);
+  }
+  printf("\n");
+  for(i=0;i<3;i++){
+    printf("end float= %p \n",vet2+i);
+  }
+  printf("\n");
+
+for(i=0;i<3;i++){
+    printf("end double= %p \n",vet3+i);
+  }
+  printf("\n");
+return 0;
+}

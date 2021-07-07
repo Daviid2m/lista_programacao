@@ -1,0 +1,32 @@
+Resposta:
+
+#include <stdio.h>      
+#include <stdlib.h>                               //"Biblioteca para qsort". 
+ 
+int comparador(const void *a, const void *b) {    //"Função para comparar dois valores".
+   return ( *(int*)a - *(int*)b );                //"Se retornar um valor maior que zero, então o primeiro valor é maior que o segundo,
+}                                                 //se retornar um valor menos que zero, então o segundo valor é maior que o primeiro".
+
+int main (){
+  int x;                                          //"Variável para quantidade de números".
+  int i;                                          //"Variável para repetição".
+  float *n;                                       //"Ponteiro para Float".
+
+  n=(float*)malloc(sizeof(float));                //"Alocação dinâmica de n".
+
+  printf("Digite a quantidade de numeros:");      //"Printf".
+  scanf("%d", &x);                                //"Scanf da quantidade de números".
+  printf("\nNumeros:\n");                         //"Printf".
+  for (i=0; i<x; i++){                            //"Repetição para quantidade de números".
+  scanf("%f", &n[i]);                             //"Scanf dos números de cada posição do array n".
+  }
+
+  qsort (n, x, sizeof(int), comparador);          //"Função qsort".
+
+  printf("Ordem=\n");                             //"Printf".
+  for(i=0; i<x; i++){                             //"Repetição para quantidade de números".
+    printf("%.2f\n", n[i]);                       //"Printf dos números em ordem crescente".
+  }
+  free(n);                                        //"Liberação da memória".
+  return 0;
+}

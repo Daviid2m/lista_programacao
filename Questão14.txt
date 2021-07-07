@@ -1,0 +1,43 @@
+Resposta:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void ordena(float *n, int x){
+  int i, l, tmp;
+
+  for(i=0; i<x; i++){ 
+    for(l=i+1; l<x; l++){
+    if(n[i]>n[l]){
+      tmp=n[i];
+      n[i]=n[l];
+      n[l]=tmp;  
+      }
+    }
+  }
+}
+
+int main() {
+
+int i, x;
+float *n;
+
+n=(float*)malloc(sizeof(float));
+
+printf("Digite a quantidade de numeros:");
+scanf("%d", &x);
+
+printf("\nNumeros:\n");
+for (i = 0; i<x; ++i){
+scanf("%f", &n[i]);
+}
+printf("\n");
+    
+ordena(n, x);
+printf("Ordem crescente=\n");
+for (i=0; i<x; ++i)
+    printf("%.2f\n", n[i]);
+  
+free(n);
+return 0;
+}

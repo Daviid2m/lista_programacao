@@ -1,0 +1,31 @@
+Resposta:
+
+Um ponteiro pra função é um ponteiro que aponta ao endereço de memória 
+onde está uma função, assim acessando e executando as instruções nesse 
+espaço de memória.
+
+Código:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int soma(int x, int y){
+	return x + y;
+}
+
+int main(){
+	int a, b, s;
+	int (*p)(int,int);
+
+	printf("Digite o primeiro numero:");
+	scanf("%d", &a);
+	printf("Digite o segundo numero:");
+	scanf("%d", &b);
+
+	p=soma;
+	s=p(a, b);
+
+	printf("Soma= %d", s);
+
+return 0;
+}
