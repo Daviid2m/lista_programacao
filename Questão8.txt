@@ -1,0 +1,3 @@
+Resposta:
+
+As expressões "p = mat + 1" e "x = (*mat)++", pois nas outras expressões há o incremento de int mat[4], o que não é póssivel.

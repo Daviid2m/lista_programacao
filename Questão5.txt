@@ -1,0 +1,14 @@
+Resposta:
+Valor = 20;
+Temp = 29.0;
+Aux = P;
+Aux = e;
+*p3 = P;
+*p3 = e;
+*p3 = t;
+Idade = 31;
+Idade = 45;
+Idade = 27;
+Idade = 31;
+*p5 = 45;
+*p5 = 27.

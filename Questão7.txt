@@ -1,0 +1,3 @@
+Resposta:
+
+A expressão que apresenta o valor do terceiro elementodo vetor é "*(pulo+2)".

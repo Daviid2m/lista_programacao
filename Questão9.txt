@@ -1,0 +1,6 @@
+Resposta:
+
+O primeiro programa mostra os valores inseridos em cada um 
+dos endereços do vetor vet[];
+O segundo programa mostra o endereço de cada valor do vetor
+vet[].

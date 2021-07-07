@@ -1,0 +1,31 @@
+Resposta:
+
+Contador: i = 0
+Valor: vet[0] = 1.1
+Valor: *(f + 0) = 1.1
+Endereço: &vet[0] = 0x7ffc34b8cf80
+Endereço: (f + 0) = 0x7ffc34b8cf80
+
+Contador: i = 1
+Valor: vet[1] = 2.2
+Valor: *(f + 1) = 2.2
+Endereço: &vet[1] = 0x7ffc34b8cf84
+Endereço: (f + 1) = 0x7ffc34b8cf84
+
+Contador: i = 2
+Valor: vet[2] = 3.3
+Valor: *(f + 2) = 3.3
+Endereço: &vet[2] = 0x7ffc34b8cf88
+Endereço: (f + 2) = 0x7ffc34b8cf88
+
+Contador: i = 3
+Valor: vet[3] = 4.4
+Valor: *(f + 3) = 4.4
+Endereço: &vet[3] = 0x7ffc34b8cf8c
+Endereço: (f + 3) = 0x7ffc34b8cf8c
+
+Contador: i = 4
+Valor: vet[4] = 5.5
+Valor: *(f + 4) = 5.5
+Endereço: &vet[4] = 0x7ffc34b8cf90
+Endereço: (f + 4) = 0x7ffc34b8cf90
