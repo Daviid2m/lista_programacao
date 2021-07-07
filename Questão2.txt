@@ -1,4 +1,5 @@
-Rsposta:
+Resposta:
+
 p==&i = 1, Verdadeiro;
 *p-*q = -2;
 **&p = 3;
