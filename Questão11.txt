@@ -1,0 +1,7 @@
+Resposta:
+
+Os comandos inválidos:
+
+c. aloha = "value";
+f.coisas[5] = aloha;
+g.pf = aloha;
